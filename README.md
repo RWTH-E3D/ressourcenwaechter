@@ -93,7 +93,7 @@ CC BY-NC-SA 4.0.
 
 The project Ressourcenwächter was funded by RWTH Aachen University's Sustainability Fund (Ref. 02-2023-004). We are grateful for the support.
 
-<img src="_pics/rwth_nachhaltigkeitsfonds_wimpel_de_rgb.png" alt="RWTH Nachhaltigkeitsfonds Wimpel" style="max-width:160px" />
+<img src="_pics/rwth_nachhaltigkeitsfonds_wimpel_de_rgb.png" alt="RWTH Nachhaltigkeitsfonds Wimpel" style="width:160px" />
 
 ## Contributors
 

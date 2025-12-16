@@ -16,7 +16,7 @@
 
 - **Autonomous system**
 
-  On-device graphical user interface providing real-time visualization, intuitive interaction, and immediate feedback without requiring an external computer or internet connection. All data are stored locally on a microSD card.
+  On-device GUI providing real-time visualization, intuitive interaction, and immediate feedback without requiring an external computer or internet connection. All data are stored locally on a microSD card.
 
 - **Behavior-oriented feedback system**
 

@@ -50,7 +50,7 @@ Unless stated otherwise, all software and firmware developed within this project
 
 Author: Qirui Huang
 
-License: Creative Commons Attribution–NonCommercial–ShareAlike
+License: Creative Commons Attribution-NonCommercial-ShareAlike
 4.0 International (CC BY-NC-SA 4.0)
 
 This license applies to all hardware-related materials, including but not limited to schematics, PCB layouts, enclosure designs, and mechanical drawings.

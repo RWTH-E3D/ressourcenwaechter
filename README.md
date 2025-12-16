@@ -1,6 +1,6 @@
 # Ressourcenwächter
 
-*Resource Guardian – An open-source, modular Indoor Environmental Quality (IEQ) monitoring system featuring a gamified Graphical User Interface (GUI)*
+*Resource Guardian - An open-source, modular Indoor Environmental Quality (IEQ) monitoring system featuring a gamified Graphical User Interface (GUI)*
 
 <img src="_pics/ressourcenwaechter_name.png" alt="Ressourcenwaechter name" style="width:50%;" />
 

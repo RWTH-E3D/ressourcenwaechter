@@ -32,7 +32,7 @@ Please read this section carefully before reusing or redistributing any part of 
 
 ### Software & Firmware
 
-The codebase is structured into three main components:
+The codebase is structured into following main components:
 
 1. **Firmware:** Code running on embedded microcontrollers.
 

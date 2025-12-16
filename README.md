@@ -26,8 +26,10 @@
 
 ## License
 
-The *Ressourcenwächter (Resource Guardian)* project is a mixed open-source project consisting of software, firmware, hardware designs, documentation, feedback content, and third-party visual assets.
-Different components of the project are released under different licenses, as outlined below.
+The *Ressourcenwächter (Resource Guardian)* project is a mixed open-source project consisting of software, firmware, hardware designs, documentation, feedback content, and third-party visual assets. Different components of the project are released under different licenses, as outlined below.
+
+In general, this project may be used, modified, and redistributed, provided that appropriate attribution is given and the respective license terms of each component are respected. **Non-commercial** use is permitted for all components, while commercial use is restricted for parts of the project licensed under non-commercial Creative Commons licenses. Third-party assets remain subject to their original licenses.
+
 Please read this section carefully before reusing or redistributing any part of the project.
 
 ### Software & Firmware

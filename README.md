@@ -12,7 +12,7 @@
 
 - **Multi-sensor data acquisition**
 
-  Support for air temperature, humidity, illuminance, sound level, CO$_2$ concentration, VOC, wind speed, window status, electric power, and other IEQ sensors, with synchronized data collection and time-stamping.
+  Support for air temperature, humidity, illuminance, sound level, CO<sub>2</sub> concentration, VOC, wind speed, window status, electric power, and other IEQ sensors, with synchronized data collection and time-stamping.
 
 - **Autonomous system**
 

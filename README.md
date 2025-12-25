@@ -67,7 +67,7 @@ Authors: Qirui Huang, Marc Syndicus, Anna Langenbeck, Anna Deriks, Sonja Herzoge
 License: CC BY-NC-SA 4.0
 
 This license applies to feedback texts, categorization schemes, behavioral
-recommendation concepts, and related content.
+recommendation concepts, and related content, except for quotations and otherwise indicated parts.
 
 ### Documentation
 
@@ -75,7 +75,7 @@ Authors: Qirui Huang, Marc Syndicus
 
 License: CC BY-NC-SA 4.0
 
-This includes assembly guides, methodological documentation, and other written materials.
+This includes assembly guides, methodological documentation, and other written materials, except for quotations and otherwise indicated parts.
 
 ### Artworks
 
@@ -100,3 +100,4 @@ The project Ressourcenwächter was funded by RWTH Aachen University's Sustainabi
 <a href="https://github.com/RWTH-E3D/carbonfly/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RWTH-E3D/carbonfly" />
 </a>
+

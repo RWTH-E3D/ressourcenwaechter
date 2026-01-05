@@ -12,7 +12,7 @@ The enclosure's design files can be found [here](./enclosure) (`./enclosure`), i
 1. Models in STL/STEP format
 2. Project files for 3D printing
 
-
+[DIY Guide: Prepare enclosure](https://rw.e3d.rwth-aachen.de/en/wiki/prepare-enclosure/)
 
 ## PCB
 
@@ -21,3 +21,4 @@ The PCB files can be found [here](./pcb) (`./pcb`), including:
 1. Schematics
 2. Production files
 
+[DIY Guide: Prepare PCB](https://rw.e3d.rwth-aachen.de/en/wiki/prepare-pcb/)

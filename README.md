@@ -12,6 +12,7 @@
 * [Ressourcenwächter](#ressourcenwächter)
   * [Overview](#overview)
   * [Key Features](#key-features)
+  * [DIY Guide](#diy-guide)
   * [License](#license)
     * [Software & Firmware](#software--firmware)
     * [Hardware](#hardware)

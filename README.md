@@ -4,6 +4,26 @@
 
 <img src="_pics/ressourcenwaechter_name.png" alt="Ressourcenwaechter name" style="width:50%;" />
 
+**Resource Guardian's Wiki: [Link](https://rw.e3d.rwth-aachen.de/)**
+
+## Overview
+
+<!-- TOC -->
+* [Ressourcenwächter](#ressourcenwächter)
+  * [Overview](#overview)
+  * [Key Features](#key-features)
+  * [License](#license)
+    * [Software & Firmware](#software--firmware)
+    * [Hardware](#hardware)
+    * [Feedback System (Texts & Concepts)](#feedback-system-texts--concepts)
+    * [Documentation](#documentation)
+    * [Artworks](#artworks)
+  * [Acknowledgements](#acknowledgements)
+  * [Contributors](#contributors)
+<!-- TOC -->
+
+[Back to top ↥](#overview)
+
 ## Key Features
 
 - **Modular IEQ monitoring system**
@@ -89,11 +109,15 @@ This project incorporates third-party assets. These assets are not covered by th
 All artworks not listed above are created by Qirui Huang and licensed under
 CC BY-NC-SA 4.0.
 
+[Back to top ↥](#overview)
+
 ## Acknowledgements
 
 The project Ressourcenwächter was funded by RWTH Aachen University's Sustainability Fund (Ref. 02-2023-004). We are grateful for the support.
 
 <img src="_pics/rwth_nachhaltigkeitsfonds_wimpel_de_rgb.png" alt="RWTH Nachhaltigkeitsfonds Wimpel" style="width:160px" />
+
+[Back to top ↥](#overview)
 
 ## Contributors
 
@@ -101,3 +125,4 @@ The project Ressourcenwächter was funded by RWTH Aachen University's Sustainabi
   <img src="https://contrib.rocks/image?repo=RWTH-E3D/carbonfly" />
 </a>
 
+[Back to top ↥](#overview)

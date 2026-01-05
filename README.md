@@ -4,7 +4,7 @@
 
 <img src="_pics/ressourcenwaechter_name.png" alt="Ressourcenwaechter name" style="width:50%;" />
 
-**Resource Guardian's Wiki: [Link](https://rw.e3d.rwth-aachen.de/)**
+**Resource Guardian's Wiki: [Link](https://rw.e3d.rwth-aachen.de/en/homepage-en/)**
 
 ## Overview
 
@@ -43,11 +43,26 @@
 
 <img src="_pics/ressourcenwaechter_device.png" alt="Ressourcenwaechter monitoring device" style="width:100%;" />
 
+<table>
+<tr>
+  <td align="center" valign="top">
+      <img src="_pics/ui_homepage_feedback.png" alt="Feedback System" />
+      <br/>
+      <sub><strong>Feedback System</strong><br/>Resource Guardian can provide recommendations and energy-saving tips based on your current IEQ environment</sub>
+  </td>
+  <td align="center" valign="top">
+      <img src="_pics/ui_sensordatapage.png" alt="Resizable GUI Small" />
+      <br/>
+      <sub><strong>Sensor Data</strong><br/>Resource Guardian's modular design allows real-time IEQ data to be displayed based on your sensor configuration.</sub>
+  </td>
+</tr>
+</table>
+
 ## DIY Guide
 
 - Step 1: [Prepare enclosure](https://rw.e3d.rwth-aachen.de/en/wiki/prepare-enclosure/)
 - Step 2: [Prepare PCB](https://rw.e3d.rwth-aachen.de/en/wiki/prepare-pcb/)
-- Step 3: [Assembling Ressourcenwächter](https://rw.e3d.rwth-aachen.de/en/wiki/assembling-ressourcenwaechter/)
+- Step 3: [Assembling Resource Guardian](https://rw.e3d.rwth-aachen.de/en/wiki/assembling-ressourcenwaechter/)
 
 ## License
 

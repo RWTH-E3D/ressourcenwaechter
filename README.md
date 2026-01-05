@@ -22,8 +22,6 @@
   * [Contributors](#contributors)
 <!-- TOC -->
 
-[Back to top ↥](#overview)
-
 ## Key Features
 
 - **Modular IEQ monitoring system**
@@ -43,6 +41,12 @@
   Context-aware feedback and recommendations aiming to support more resource-/energy-efficient and healthy user behavior, based on measured IEQ conditions.
 
 <img src="_pics/ressourcenwaechter_device.png" alt="Ressourcenwaechter monitoring device" style="width:100%;" />
+
+## DIY Guide
+
+- Step 1: [Prepare enclosure](https://rw.e3d.rwth-aachen.de/en/wiki/prepare-enclosure/)
+- Step 2: [Prepare PCB](https://rw.e3d.rwth-aachen.de/en/wiki/prepare-pcb/)
+- Step 3: [Assembling Ressourcenwächter](https://rw.e3d.rwth-aachen.de/en/wiki/assembling-ressourcenwaechter/)
 
 ## License
 

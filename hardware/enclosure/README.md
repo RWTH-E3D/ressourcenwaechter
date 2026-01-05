@@ -1,5 +1,7 @@
 # Hardware Design
 
+[DIY Guide: Prepare enclosure](https://rw.e3d.rwth-aachen.de/en/wiki/prepare-enclosure/)
+
 ## Enclosure
 
 STL and STEP format files for the enclosure can be found in this folder, consisting of 3 parts:

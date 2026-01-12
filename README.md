@@ -58,6 +58,14 @@
 </tr>
 </table>
 
+## Design
+
+1. [Hardware](./hardware)
+   1. [Enclosure](./hardware/enclosure)
+   2. [PCB](./hardware/pcb)
+2. [Microcontroller Firmware](./firmware)
+3. [GUI](./software/gui)
+
 ## DIY Guide
 
 - Step 1: [Prepare enclosure](https://rw.e3d.rwth-aachen.de/en/wiki/prepare-enclosure/)

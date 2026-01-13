@@ -1,3 +1,5 @@
+If you wish to install both Nextion Editor and USART HMI for development:
+
 1. First install the Nextion software normally. 
 2. Now copy the entire software folder to another location (otherwise it will be overwritten by the USART even by using different path). 
 3. Now install the USART HMI software from TJC. 

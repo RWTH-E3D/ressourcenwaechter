@@ -9,19 +9,20 @@
 ## Overview
 
 <!-- TOC -->
-* [Ressourcenwächter](#ressourcenwächter)
-  * [Overview](#overview)
-  * [Key Features](#key-features)
-  * [Design](#design)
-  * [DIY Guide](#diy-guide)
-  * [License](#license)
-    * [Software & Firmware](#software--firmware)
-    * [Hardware](#hardware)
-    * [Feedback System (Texts & Concepts)](#feedback-system-texts--concepts)
-    * [Documentation](#documentation)
-    * [Artworks](#artworks)
-  * [Acknowledgements](#acknowledgements)
-  * [Contributors](#contributors)
+- [Ressourcenwächter](#ressourcenwächter)
+  - [Overview](#overview)
+  - [Key Features](#key-features)
+  - [Design](#design)
+  - [DIY Guide](#diy-guide)
+  - [License](#license)
+    - [Software \& Firmware](#software--firmware)
+    - [Hardware](#hardware)
+    - [Feedback System (Texts \& Concepts)](#feedback-system-texts--concepts)
+    - [Documentation](#documentation)
+    - [Artworks](#artworks)
+  - [Acknowledgements](#acknowledgements)
+  - [How to cite](#how-to-cite)
+  - [Contributors](#contributors)
 <!-- TOC -->
 
 ## Key Features
@@ -147,6 +148,33 @@ The project Ressourcenwächter was funded by RWTH Aachen University's Sustainabi
 <img src="_pics/rwth_nachhaltigkeitsfonds_wimpel_de_rgb.png" alt="RWTH Nachhaltigkeitsfonds Wimpel" style="width:160px" />
 
 [Back to top ↥](#overview)
+
+## How to cite
+
+If you use Resource Guardian in your academic work, please cite our journal paper: https://doi.org/10.1016/j.buildenv.2026.114657
+
+  **Examples:**
+
+  BibTeX:
+
+  ```bibtex
+  @article{Huang_2026_Potential_Gamification_BAE,
+    title = {The potential of gamification in IEQ monitoring: Open-source hardware development and field studies},
+    journal = {Building and Environment},
+    pages = {114657},
+    year = {2026},
+    issn = {0360-1323},
+    doi = {https://doi.org/10.1016/j.buildenv.2026.114657},
+    url = {https://www.sciencedirect.com/science/article/pii/S0360132326004622},
+    author = {Qirui Huang and Marc Syndicus and Dono Jamoliddinova and Jérôme Frisch and Christoph {van Treeck}},
+    keywords = {Indoor environmental quality, Gamification, Monitoring, User behavior, Hardware},
+  }
+  ```
+
+  APA style:
+  ```
+  Huang, Q., Syndicus, M., Jamoliddinova, D., Frisch, J., & van Treeck, C. (2026). The potential of gamification in IEQ monitoring: Open-source hardware development and field studies. Building and Environment, 114657. https://doi.org/10.1016/j.buildenv.2026.114657
+  ```
 
 ## Contributors
 

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "The potential of gamification in IEQ monitoring: Open-source hardware development and field studies"
+message: "If you use Resource Guardian in your research, please cite our paper."
+type: software
+
+authors:
+  - family-names: Huang
+    given-names: Qirui
+
+repository-code: "https://github.com/RWTH-E3D/ressourcenwaechter"
+url: "https://github.com/RWTH-E3D/ressourcenwaechter"
+
+preferred-citation:
+  type: article
+  title: "The potential of gamification in IEQ monitoring: Open-source hardware development and field studies"
+  journal: "Building and Environment"
+  year: 2026
+  start: 114657
+  doi: 10.1016/j.buildenv.2026.114657
+  authors:
+    - family-names: Huang
+      given-names: Qirui
+    - family-names: Syndicus
+      given-names: Marc
+    - family-names: Jamoliddinova
+      given-names: Dono
+    - family-names: Frisch
+      given-names: Jérôme
+    - family-names: van Treeck
+      given-names: Christoph

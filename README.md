@@ -161,6 +161,7 @@ If you use Resource Guardian in your academic work, please cite our journal pape
   @article{Huang_2026_Potential_Gamification_BAE,
     title = {The potential of gamification in IEQ monitoring: Open-source hardware development and field studies},
     journal = {Building and Environment},
+    volume = {298},
     pages = {114657},
     year = {2026},
     issn = {0360-1323},
@@ -173,7 +174,7 @@ If you use Resource Guardian in your academic work, please cite our journal pape
 
   APA style:
   ```
-  Huang, Q., Syndicus, M., Jamoliddinova, D., Frisch, J., & van Treeck, C. (2026). The potential of gamification in IEQ monitoring: Open-source hardware development and field studies. Building and Environment, 114657. https://doi.org/10.1016/j.buildenv.2026.114657
+  Huang, Q., Syndicus, M., Jamoliddinova, D., Frisch, J., & van Treeck, C. (2026). The potential of gamification in IEQ monitoring: Open-source hardware development and field studies. Building and Environment, 298, 114657. https://doi.org/10.1016/j.buildenv.2026.114657
   ```
 
 ## Contributors

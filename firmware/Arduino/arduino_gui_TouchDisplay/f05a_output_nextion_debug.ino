@@ -39,9 +39,9 @@ void output_to_nextion_debug() {
   Serial.print("sound.val=");            Serial.print(sound * 100, 0);                      Serial.write(0xff);Serial.write(0xff);Serial.write(0xff);
   // Wind speed sensor
   Serial.print("windspeed_ava.val=");    Serial.print(WindSensorisAvailable);               Serial.write(0xff);Serial.write(0xff);Serial.write(0xff);
-  Serial.print("wind_speed.val=");        Serial.print(windSpeed * 100, 0);                  Serial.write(0xff);Serial.write(0xff);Serial.write(0xff);
-  // SCD30
-  Serial.print("scd30_ava.val=");        Serial.print(SCD30isAvailable);                    Serial.write(0xff);Serial.write(0xff);Serial.write(0xff);
+  Serial.print("wind_speed.val=");       Serial.print(windSpeed * 100, 0);                  Serial.write(0xff);Serial.write(0xff);Serial.write(0xff);
+  // SCD30/4x, here scd30_ava representing for both SCD30 and SCD4x, for compability
+  Serial.print("scd30_ava.val=");        Serial.print(activeCO2Sensor != CO2_SRC_NONE);     Serial.write(0xff);Serial.write(0xff);Serial.write(0xff);
   Serial.print("co2.val=");              Serial.print(co2 * 100, 0);                        Serial.write(0xff);Serial.write(0xff);Serial.write(0xff);
   // predicted comfort
   Serial.print("tci.val=");              Serial.print(TCI_val * 100, 0);                    Serial.write(0xff);Serial.write(0xff);Serial.write(0xff);

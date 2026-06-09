@@ -212,10 +212,10 @@ void IAQI(){
   if (SGP40isAvailable) {
     IAQI_val_voc = calc_index_asym(vocIndex,voc_good_max,voc_moderate_max,voc_unhealthy_max);
   }
-  if (SCD30isAvailable) {
+  if (activeCO2Sensor != CO2_SRC_NONE) {
     IAQI_val_co2 = calc_index_asym(co2,co2_good_max,co2_moderate_max,co2_unhealthy_max);
   }
-  IAQI_val = (IAQI_val_voc + IAQI_val_co2 ) / (int(SGP40isAvailable) + int(SCD30isAvailable));
+  IAQI_val = (IAQI_val_voc + IAQI_val_co2 ) / (int(SGP40isAvailable) + int(activeCO2Sensor != CO2_SRC_NONE));
 }
 
 void IEQI(){
@@ -240,7 +240,7 @@ void IEQI(){
   } else {
     PCI_val = 0;
   }
-  if (SCD30isAvailable || SGP40isAvailable) {
+  if (activeCO2Sensor != CO2_SRC_NONE || SGP40isAvailable) {
     IAQI();
   } else {
     IAQI_val = 0;
@@ -249,7 +249,7 @@ void IEQI(){
   IEQI_val = (TCI_weight * TCI_val + SCI_weight * SCI_val + LCI_weight * LCI_val + PCI_weight * PCI_val + IAQI_weight * IAQI_val) * 100 / 
              (
                 3 * (
-                  (TCI_weight + PCI_weight) * int(BME280isAvailable) + SCI_weight * int(SoundSensorisAvailable) + LCI_weight * int(VEML7700isAvailable) + IAQI_weight * int(SCD30isAvailable)
+                  (TCI_weight + PCI_weight) * int(BME280isAvailable) + SCI_weight * int(SoundSensorisAvailable) + LCI_weight * int(VEML7700isAvailable) + IAQI_weight * int(activeCO2Sensor != CO2_SRC_NONE)
                 )
              );
 }

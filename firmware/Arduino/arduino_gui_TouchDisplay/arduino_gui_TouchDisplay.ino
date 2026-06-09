@@ -27,7 +27,7 @@
 //#define UPDATE_RTC  // Comment this line if you don't need to update the time. 
 
 // Version
-char version[] = "1.2.2";
+char version[] = "1.3.0";
 
 /* 
   Libraries
@@ -54,6 +54,7 @@ char version[] = "1.2.2";
 #include "Adafruit_SGP40.h" // VOC: SGP40, v1.1.3
 #include "Adafruit_VEML7700.h"  // light: VEML7700, v2.1.6
 #include "SparkFun_SCD30_Arduino_Library.h" // CO2: SCD30, v1.0.20
+#include "SparkFun_SCD4x_Arduino_Library.h" // CO2: SCD40/41, v1.1.2
 #include <OneWire.h>  // OneWire for DS18B20, v2.3.7
 #include <DallasTemperature.h>  // T: DS18B20, v3.9.0
 // RFID

@@ -15,6 +15,9 @@ bool VEML7700isAvailable;               // auto check in setup()
 // ==== CO2: SCD30 ====
 bool SCD30isAvailable;                  // auto check in setup()
 
+// ==== CO2: SCD40/41 ====
+bool SCD40isAvailable;                  // auto check in setup(), true if SCD30 not found but SCD40 is present
+
 // ==== sound ====
 bool SoundSensorisAvailable = true;     // Manual entry
 

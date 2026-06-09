@@ -60,8 +60,9 @@ void output_serial() {
   Serial.print("wind_speed=");Serial.print(windSpeed);Serial.print(";");
   Serial.print("RV_Wind_Volts=");Serial.print(RV_Wind_Volts);Serial.print(";");
   Serial.print("zeroWind_volts=");Serial.print(zeroWind_volts);Serial.print(";");
-  // SCD30
+  // SCD30/4x
   Serial.print("scd30_available=");Serial.print(SCD30isAvailable);Serial.print(";");
+  Serial.print("scd40_available=");Serial.print(SCD40isAvailable);Serial.print(";");
   Serial.print("co2=");Serial.print(co2);Serial.print(";");
   // predicted comfort
   Serial.print("tci=");Serial.print(TCI_val);Serial.print(";");

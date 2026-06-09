@@ -103,6 +103,17 @@ double sqV,sumV,sqI,sumI,instP,sumP;  //sq = squared, sum = Sum, inst = instanta
 
 // ==== CO2: SCD30 ====
 SCD30 scd30;  // I2C
+// ==== CO2: SCD40 ====
+SCD4x scd40;  // I2C, fallback CO2 sensor (lower performance than SCD30, but cheaper)
+// Track which CO2 sensor is the active source
+// Priority: SCD30 > SCD40 (SCD30 has better performance -> first choice if available)
+enum CO2Source {
+  CO2_SRC_NONE = 0,
+  CO2_SRC_SCD30 = 1,
+  CO2_SRC_SCD40 = 2
+};
+CO2Source activeCO2Sensor = CO2_SRC_NONE;
+
 float co2;
 /*
   Ff enable auto self-calibration mode of SCD30, default: false.
@@ -113,7 +124,8 @@ float co2;
   It is switched off by default because, based on our measurements, the factory-set FRC already has very good performance. 
   It can be considered to be switched on if long-term monitoring is planned in a well-ventilated building (> 6 months).
 */
-bool enableSCD30ASC = false;
+bool enableSCDASC = false;
+//bool enableSCDASC = true;
 
 
 // ==== T: DS18B20 ====

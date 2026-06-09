@@ -39,9 +39,9 @@ void output_to_nextion() {
   Serial2.print("sound.val=");            Serial2.print(sound * 100, 0);                      Serial2.write(0xff);Serial2.write(0xff);Serial2.write(0xff);
   // Wind speed sensor
   Serial2.print("windspeed_ava.val=");    Serial2.print(WindSensorisAvailable);               Serial2.write(0xff);Serial2.write(0xff);Serial2.write(0xff);
-  Serial2.print("wind_speed.val=");        Serial2.print(windSpeed * 100, 0);                  Serial2.write(0xff);Serial2.write(0xff);Serial2.write(0xff);
-  // SCD30
-  Serial2.print("scd30_ava.val=");        Serial2.print(SCD30isAvailable);                    Serial2.write(0xff);Serial2.write(0xff);Serial2.write(0xff);
+  Serial2.print("wind_speed.val=");       Serial2.print(windSpeed * 100, 0);                  Serial2.write(0xff);Serial2.write(0xff);Serial2.write(0xff);
+  // SCD30/4x, here scd30_ava representing for both SCD30 and SCD4x, for compability
+  Serial2.print("scd30_ava.val=");        Serial2.print(activeCO2Sensor != CO2_SRC_NONE);     Serial2.write(0xff);Serial2.write(0xff);Serial2.write(0xff);
   Serial2.print("co2.val=");              Serial2.print(co2 * 100, 0);                        Serial2.write(0xff);Serial2.write(0xff);Serial2.write(0xff);
   // predicted comfort
   Serial2.print("tci.val=");              Serial2.print(TCI_val * 100, 0);                    Serial2.write(0xff);Serial2.write(0xff);Serial2.write(0xff);

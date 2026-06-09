@@ -95,8 +95,12 @@ void get_data(){
     }
     
     // CO2
-    if (SCD30isAvailable) {
+    if (activeCO2Sensor == CO2_SRC_SCD30) {
       co2 = scd30.getCO2();
+    } else if (activeCO2Sensor == CO2_SRC_SCD40) {
+      if (scd40.readMeasurement()) {
+        co2 = scd40.getCO2();
+      }
     } else {
       co2 = -100;
     }

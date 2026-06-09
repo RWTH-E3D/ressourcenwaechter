@@ -82,15 +82,37 @@ void check_wiring(){
     debug_println("Sensor check: VEML7700 OK!");
   }
   
-  // start scd30 sensor
-  // Enable ASC only if enableSCD30ASC is true, it's disabled by default.
-  if (!scd30.begin(Wire,enableSCD30ASC)) {
+  // start scd30/40/41 sensor
+  // Enable ASC only if enableSCDASC is true, it's disabled by default.
+
+  // Try SCD30 (primary)
+  if (!scd30.begin(Wire,enableSCDASC)) {
     Serial.println("Sensor check: Failed to find SCD30 sensor, check wiring!");
     SCD30isAvailable = false;
+
+    // Fallback: try SCD40 at different I2C address
+    if (scd40.begin(I2C_SCD40,enableSCDASC)) {
+      SCD30isAvailable = false;     // no real SCD30
+      SCD40isAvailable = true;      // SCD40 is present
+      activeCO2Sensor = CO2_SRC_SCD40;
+      debug_println("Sensor check: SCD40 OK! (CO2 fallback, SCD30 not found)");
+      if (enableSCDASC){
+        debug_println("SCD4x: ASC enabled!");
+      } else {
+        debug_println("SCD4x: ASC disabled!");
+      }
+    } else {
+      Serial.println("Sensor check: Failed to find SCD40 sensor, check wiring!");
+      SCD40isAvailable = false;
+      activeCO2Sensor = CO2_SRC_NONE;
+    }
+    
   } else {
     SCD30isAvailable = true;
+    SCD40isAvailable = false;
+    activeCO2Sensor = CO2_SRC_SCD30;
     debug_println("Sensor check: SCD30 OK!");
-    if (enableSCD30ASC){
+    if (enableSCDASC){
       debug_println("SCD30: ASC enabled!");
     } else {
       debug_println("SCD30: ASC disabled!");

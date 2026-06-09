@@ -1,5 +1,12 @@
 ## Change Log
 
+### v1.3.0
+
+09.06.2026
+
+- Update: ESP32 firmware
+    - Support Sensirion SCD4x CO2 sensors
+
 ### v1.2.2
 
 03.04.2025
